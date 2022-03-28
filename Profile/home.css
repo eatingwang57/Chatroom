@@ -1,0 +1,29 @@
+body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+#message { background: white; max-width: 700px; margin: 64px auto 32px; padding: 16px 24px; border-radius: 1rem; box-shadow: 0 1px 3px 0px rgba(72, 73, 94, 0.25);/*border:rgb(11, 20, 148) 5px double;*/}
+#message h1 { color: #ffaf1b; font-weight: bold;  margin: 0 0 12px; }
+@media (max-width: 600px) {
+  body, #message { margin-top: 0; background: white; box-shadow: none; }
+}
+
+.navbar{
+  background: rgb(255, 137, 2);
+}
+
+#signout{
+  color: #ffdda9;
+  background: rgb(255, 137, 2);
+  padding: 8px;
+  border: 2px solid #ffdda9;
+  border-radius: 0.35rem;
+  transition: all 0.4s ease 0s;
+}
+
+#signout:hover {
+  color: #494949;
+  border-radius: 2rem;
+  border-color: #494949;
+  transition: all 0.4s ease 0s;
+}
+button:focus{
+  outline: none;
+}

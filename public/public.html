@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Public Chatroom</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.14.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase.js"></script>
+    <script defer src="/__/firebase/7.14.1/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.14.1/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.14.1/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.14.1/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+    <script src="js/config.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="public.css">
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light">  
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="chat.html">CHATROOMS</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">PUBLIC ROOM<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+    
+        <li class="nav-item dropdown" style="list-style: none;">
+          <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/user.png" style="width:35px; height:35px; opacity: 0.7;"></a>
+          <div id="dynamic-menu" class="dropdown-menu" aria-labelledby="dropdown01">
+          </div>
+        </li>
+        <button id="signout">SIGN OUT</button>
+      </div>
+    </nav>
+
+    <div id="box" >
+      <div id="post_list">
+      </div>
+      <div class="d-flex flex-row-reverse" id="message">
+          <button  id="send">Submit</button>
+          <textarea class="align-self-center" id="post" placeholder="Say something..."></textarea>
+          <div class="heart" id="img1"><img class="img" src="img/like_post.png"></div>
+          <div class="heart" id="img2"><img class="img" src="img/baby_post.png"></div>
+          <!--<div class="button_cont" textalign="center"><button class="example_d" rel="nofollow noopener" id="send">Submit</button></div>-->
+      </div>
+    </div>
+    
+    <script src="js/public.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

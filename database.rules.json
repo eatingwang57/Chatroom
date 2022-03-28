@@ -1,0 +1,21 @@
+{
+  "rules": {
+    ".read": "auth.uid != null",
+    ".write": "auth.uid != null",    
+    "chatrooms": {
+      "$rooms": {  
+        ".write": "!data.exists()"
+      }
+    },
+    "users": {
+      ".indexOn": ["name"],
+      "$user": {
+        ".read": "auth.uid == $user",
+        ".write": "auth.uid == $user",
+        "$rooms": {
+          ".write": "!data.exists()"
+        }
+      }
+    }
+  }
+}

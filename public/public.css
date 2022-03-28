@@ -1,0 +1,125 @@
+body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; height: 100%;}
+#message { background: white; max-width: 800px; margin: 0px auto; padding: 18px 10px 10px 10px; border-top:rgb(13, 21, 138) 0.15rem solid;}
+#box { background: white; max-width: 700px; margin: 32px auto 32px; padding: 16px 24px; border-radius: 1rem; box-shadow: 0 1px 3px 0px rgba(72, 73, 94, 0.25);/*border:rgb(11, 20, 148) 5px double;*/}
+#post_list { height: 475px; padding-bottom: 8px; overflow:auto;}
+@media (max-width: 768px) {
+body, #box { margin-top: 0; background: white; box-shadow: none; }
+#post_list {height: 400px}
+
+#send{
+    margin-top: 0.3rem !important;
+}
+.heart{
+    margin: 2px 7px !important;
+}
+}
+
+.navbar{
+background: rgb(255, 137, 2);
+}
+
+#dropdown01{
+padding: 0px 12px !important;
+}
+
+#signout{
+color: #ffdda9;
+background: rgb(255, 137, 2);
+padding: 8px;
+border: 2px solid #ffdda9;
+border-radius: 0.35rem;
+transition: all 0.4s ease 0s;
+}
+
+#signout:hover {
+color: #494949;
+border-radius: 2rem;
+border-color: #494949;
+transition: all 0.4s ease 0s;
+}
+
+.text1{
+background-color: rgb(154, 210, 255);
+/*max-width: 300px !important;*/
+
+}
+.text2{
+background-color: rgb(77, 148, 255);
+/*max-width: 300px !important;*/
+}
+
+.heart_img{
+width: 40px;
+height: 40px;
+}
+
+.time{
+color: rgb(189, 184, 184);
+font-size: 12px; 
+}
+
+.name{
+color: rgb(104, 102, 102);
+font-size: 14px; 
+}
+
+.msg{
+border-radius: 1rem;
+display:inline-block !important;
+padding: 0.4rem 0.8rem; 
+margin-top: 2px;
+}
+
+.icon{
+display:inline-block !important;
+padding: 0rem 0.2rem; 
+}
+
+textarea{
+width: 50%;
+height:35px;
+margin-right: 0.3rem;
+border:rgb(13, 35, 138) 0.1rem solid;
+border-radius: 0.4rem;
+resize: none;
+outline: none;
+padding: 2px 5px;
+}
+
+#send {
+height:30px;
+padding:0.3rem 0.6rem;
+margin-top: 0.6rem;
+outline: none;
+background-color: #11bedd;
+border: none;
+border-radius:0.4rem;
+box-shadow: 0 0.35rem #a5b6b8;
+}
+
+#send:hover{
+background-color: #3deffc;
+}
+
+#send:active {
+outline: none;
+box-shadow: 0 0.2rem #a5b6b8;
+transform: translateY(4px);
+}
+
+.heart{
+margin: 7px;
+}
+
+.heart:hover{
+    opacity: 0.8;
+}
+
+.img{
+width: 40px;
+height: 40px;
+}
+
+button:focus{
+outline: none;
+}
