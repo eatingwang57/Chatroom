@@ -1,6 +1,5 @@
 # Software Studio 2020 Spring Midterm Project
 
-## Topic
 * Project Name : Mid-Chatroom
 * Key functions
     1. 登入/註冊：可以用以存在於系統中的帳號來登入聊天室，或是創建新帳號。另外，也可以選擇使用Google帳號登入的方式進入聊天室。
@@ -16,22 +15,6 @@
     1.  特殊符號：在聊天室中內建兩種特殊符號---愛心、寶寶的臉，可以讓使用者自由使用。
     2.  訊息傳送時間：每則訊息都會記錄傳送時間，顯示在訊息旁邊。
     
-## Basic Components
-|Component|Score|Y/N|
-|:-:|:-:|:-:|
-|Membership Mechanism|15%|Y|
-|Firebase Page|5%|Y|
-|Database|15%|Y|
-|RWD|15%|Y|
-|Topic Key Function|20%|Y|
-
-## Advanced Components
-|Component|Score|Y/N|
-|:-:|:-:|:-:|
-|Third-Party Sign In|2.5%|Y|
-|Chrome Notification|5%|Y|
-|Use CSS Animation|2.5%|Y|
-|Security Report|5%|Y|
 
 ## Website Detail Description
 > 進入畫面
